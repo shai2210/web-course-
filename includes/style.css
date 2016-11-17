@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+footer,
+header,
+article,
+main,
+nav,
+aside {
+    display: block;
+}
+header {
+    padding-left: 10px;
+    width: 98.3%;
+    border: solid 2px #000000;
+    display: block;
+}
+#logo {
+    height: 140px;
+    background: url(../images/mickey.png);
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+header > a {
+    height: 140px;
+    width: 300px;
+}
+header>a>span > p:nth-child(1) {
+    font-family: "ariel";
+    padding: 120px 0px 0px 140px;
+    text-decoration: none;
+    display: inline-block;
+}
+header >a>span > p:nth-child(2) {
+    font-family: "david";
+    text-decoration: none;
+    display: inline-block;
+}
+nav {
+    padding-left: 10px;
+    width: 98.3%;
+    border: solid 2px #000000;
+    height: 25px;
+    background: orange;
+}
+nav > a {
+    text-decoration: none;
+    color: black;
+    margin: 12px 10px 12px 10px;
+    font-family: "ariel";
+}
+nav > a:hover {
+    color: #CAC4C4;
+}
+main {
+    width: 99%;
+    border: solid 2px #000000;
+}
+article * {
+    margin-left: 20px;
+}
+article > img {
+    padding-top: 40px;
+}
+article:nth-child(2) {
+    color: #fff;
+    background: gray;
+}
+article:nth-child(1) {
+    padding: 20px 0px 20px 0px;
+}
+article:nth-child(1) > h2 {
+    padding: 20px 0px 0px 0px;
+}
+
+article > ol li {
+    padding: 10px 0px 30px 0px;
+}
+article > ul li {
+    padding: 5px 0px 15px 0px;
+}
+article > span {
+	padding: 10px 0px 0px 0px;
+	font-family:"ariel";
+    color:#000000;
+    display: inline-block;
+}
+footer {
+    width: 97.53%;
+    border: solid 2px #000000;
+    font-size: 10px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+footer>a {
+    font-size: 10px;
+    color: #000000;
+    padding-left: 20px;
+    text-decoration: none;
+}
